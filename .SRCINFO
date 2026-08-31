@@ -1,0 +1,16 @@
+pkgbase = syn-gfn
+	pkgdesc = GeForce NOW in a browser that can hold the mouse — cloud gaming for SynapseOS
+	pkgver = 0.1.0
+	pkgrel = 4
+	url = https://github.com/velle999/SYNAPSE
+	arch = any
+	license = GPL-2.0-or-later
+	depends = bash
+	optdepends = python: pre-grant the keyboard/pointer-lock permissions
+	optdepends = chromium: the browser to stream in
+	optdepends = vivaldi: the browser to stream in
+	optdepends = firefox: browse the catalogue (cannot stream on Linux yet)
+	source = syn-gfn-0.1.0.tar.gz::https://github.com/velle999/syn-gfn/releases/download/0.1.0-4/syn-gfn-0.1.0.tar.gz
+	sha256sums = SKIP
+
+pkgname = syn-gfn
